@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/",include("todo_manage.api.urls")),
     path("",include("frontend.urls")),
+    path("comment",include("accounts.api.urls")),
     re_path(r'^media/(?P<path>.*)$',serve,{'document_root':settings.MEDIA_ROOT})
 ]

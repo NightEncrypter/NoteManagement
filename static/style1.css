@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: linear-gradient(aquamarine, aqua);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.search_container {
+  border: 1px solid wheat;
+  border-radius: 3px;
+}
+
+.search_input {
+  padding: 10px 15px;
+}
